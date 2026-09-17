@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L'Aventure des Maths ! 🚀</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-color: #F0F4F8;
+      --card-bg: #FFFFFF;
+      --text-main: #2D3748;
+      --coral: #FF6B6B;
+      --yellow: #FFD166;
+      --mint: #06D6A0;
+      --blue: #118AB2;
+      --purple: #8338EC;
+      --shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      padding: 2.5rem 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 2.8rem;
+      color: var(--blue);
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      text-shadow: 3px 3px 0px var(--yellow);
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #4A5568;
+      font-weight: 700;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 1.8rem;
+      width: 100%;
+      max-width: 950px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 22px;
+      padding: 2rem 1.5rem;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      border: 4px solid transparent;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+    }
+
+    /* Pop theme borders */
+    .card:nth-child(1) { border-color: var(--coral); }
+    .card:nth-child(2) { border-color: var(--mint); }
+    .card:nth-child(3) { border-color: var(--purple); }
+
+    .card-icon {
+      font-size: 3.8rem;
+      margin-bottom: 1rem;
+      filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+    }
+
+    .card-title {
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.5rem;
+      margin-bottom: 0.6rem;
+      color: #1A202C;
+    }
+
+    .card-desc {
+      font-size: 1rem;
+      line-height: 1.4;
+      color: #4A5568;
+      margin-bottom: 1.8rem;
+      flex-grow: 1;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 100%;
+      padding: 0.85rem 1.2rem;
+      color: white;
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 14px;
+      transition: filter 0.2s ease, transform 0.1s ease;
+    }
+
+    .card:nth-child(1) .btn { background-color: var(--coral); box-shadow: 0 4px 0px #D94141; }
+    .card:nth-child(2) .btn { background-color: var(--mint); box-shadow: 0 4px 0px #049A73; }
+    .card:nth-child(3) .btn { background-color: var(--purple); box-shadow: 0 4px 0px #5E1FB8; }
+
+    .btn:hover {
+      filter: brightness(1.08);
+    }
+
+    .btn:active {
+      transform: translateY(2px);
+      box-shadow: none !important;
+    }
+
+    footer {
+      margin-top: auto;
+      padding-top: 3rem;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #A0AEC0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚀 L'Aventure des Maths ! 🎮</h1>
+    <p class="subtitle">Choisis ton défi et bats ton record !</p>
+  </header>
+
+  <main class="grid">
+    <!-- Card 1 -->
+    <div class="card">
+      <div class="card-icon">⚡</div>
+      <h2 class="card-title">Calcul Mental</h2>
+      <p class="card-desc">Chrono, vitesse et additions ! Deviens un monstre du calcul rapide.</p>
+      <a href="https://sims07.github.io/game-child-calcul-mental/" target="_blank" class="btn">Jouer !</a>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <div class="card-icon">🐍</div>
+      <h2 class="card-title">Math Serpent CE2</h2>
+      <p class="card-desc">Mange les bonnes réponses pour faire grandir le serpent sans te crasher !</p>
+      <a href="https://sims07.github.io/game-child-math-serpent-ce2/" target="_blank" class="btn">Jouer !</a>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <div class="card-icon">🎯</div>
+      <h2 class="card-title">Le Compte est Bon</h2>
+      <p class="card-desc">Combine les nombres comme une énigme pour atteindre le chiffre cible !</p>
+      <a href="https://sims07.github.io/game-child-compte-est-bon/" target="_blank" class="btn">Jouer !</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Fait avec 🛠️ par Papa</p>
+  </footer>
+
+</body>
+</html>
