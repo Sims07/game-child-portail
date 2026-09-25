@@ -27,6 +27,10 @@ Un portail web moderne, ludique et dynamique conçu pour réunir l'ensemble des 
    - Description : Enigmes mathématiques et combinaisons de nombres pour atteindre le chiffre cible.
    - Lien : https://sims07.github.io/game-child-compte-est-bon/
 
+4. 📐 Géométrie CE2
+   - Description : Figures planes, solides, vocabulaire (sommet, côté, angle droit) et exercices de tracé.
+   - Lien : https://sims07.github.io/game-child-geometrie-droite/
+
 ---
 
 ## 🛠️ Structure du Projet
