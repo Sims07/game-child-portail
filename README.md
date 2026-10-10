@@ -31,6 +31,10 @@ Un portail web moderne, ludique et dynamique conçu pour réunir l'ensemble des 
    - Description : Figures planes, solides, vocabulaire (sommet, côté, angle droit) et exercices de tracé.
    - Lien : https://sims07.github.io/game-child-geometrie-droite/
 
+5. 💡 Maths Flash CE2 — Le Club des Astuces
+   - Description : Astuces de calcul mental (passage à la dizaine, +9, +8) avec mode pas à pas et défi rapide.
+   - Lien : https://sims07.github.io/game-child-calcul-mental-astuce/
+
 ---
 
 ## 🛠️ Structure du Projet
