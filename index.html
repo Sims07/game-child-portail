@@ -12,6 +12,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@600;700&family=Cinzel:wght@600;700&family=EB+Garamond:wght@500;600&display=swap" rel="stylesheet" />
 
+  <!-- Statistiques anonymes (GoatCounter) : sans cookie, sans donnée personnelle.
+       Compte GoatCounter : sim07. -->
+  <script data-goatcounter="https://sim07.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+
   <style>
     /* ============ VARIABLES PAR DÉFAUT (thème jour) ============ */
     :root {
@@ -826,7 +831,22 @@
       });
 
       /* ============================================================
-         2) GESTION DE LA VUE JEU (iframe)
+         2) STATISTIQUES ANONYMES (GoatCounter)
+         ============================================================ */
+      function trackGame(title) {
+        try {
+          if (window.goatcounter && window.goatcounter.count) {
+            window.goatcounter.count({
+              path: 'jeu/' + title,
+              title: title,
+              event: true
+            });
+          }
+        } catch (e) { /* ne jamais bloquer le jeu à cause des stats */ }
+      }
+
+      /* ============================================================
+         3) GESTION DE LA VUE JEU (iframe)
          ============================================================ */
       const gameView = document.getElementById('game-view');
       const gameFrame = document.getElementById('game-frame');
@@ -859,6 +879,7 @@
 
       cards.forEach(card => {
         card.addEventListener('click', () => {
+          trackGame(card.dataset.title);
           openGame(
             card.dataset.url,
             card.dataset.title,
