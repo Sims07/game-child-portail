@@ -35,6 +35,10 @@ Un portail web moderne, ludique et dynamique conçu pour réunir l'ensemble des 
    - Description : Astuces de calcul mental (passage à la dizaine, +9, +8) avec mode pas à pas et défi rapide.
    - Lien : https://sims07.github.io/game-child-calcul-mental-astuce/
 
+6. 🎃 Maths d'Halloween — Additions à Trous
+   - Description : Additions à trous à 2 chiffres avec ardoise magique tactile, combo de bonbons et réglages de difficulté.
+   - Lien : https://sims07.github.io/game-child-addition-a-trous/
+
 ---
 
 ## 🛠️ Structure du Projet
