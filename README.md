@@ -39,6 +39,10 @@ Un portail web moderne, ludique et dynamique conçu pour réunir l'ensemble des 
    - Description : Additions à trous à 2 chiffres avec ardoise magique tactile, combo de bonbons et réglages de difficulté.
    - Lien : https://sims07.github.io/game-child-addition-a-trous/
 
+7. 🦉 Soustraction Magique CE2 — L'Académie de Soustraction Magique
+   - Description : Apprendre à soustraire avec ou sans franchissement de la dizaine grâce aux explications d'Archibald, avec entraînement et défi chronométré.
+   - Lien : https://sims07.github.io/game-child-soustraction-cm/
+
 ---
 
 ## 🛠️ Structure du Projet
