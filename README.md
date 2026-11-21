@@ -43,6 +43,10 @@ Un portail web moderne, ludique et dynamique conçu pour réunir l'ensemble des 
    - Description : Apprendre à soustraire avec ou sans franchissement de la dizaine grâce aux explications d'Archibald, avec entraînement et défi chronométré.
    - Lien : https://sims07.github.io/game-child-soustraction-cm/
 
+8. 🪄 Multiplications magiques CE2
+   - Description : Apprendre la multiplication posée en colonnes, les retenues, le zéro de décalage et l'addition des résultats partiels.
+   - Lien : https://sims07.github.io/game-child-multiplication-colonne/
+
 ---
 
 ## 🛠️ Structure du Projet
